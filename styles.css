@@ -1,0 +1,109 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: wheat;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Header Style */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section Style */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #940c401e;
+    border: 1px solid #ccc;
+}
+
+section h2 {
+    margin-bottom: 10px;
+  
+}
+
+/* Footer Style */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
+
+/* Two Column Layout */
+.two-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-column div {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: hsl(125, 76%, 50%);
+    border: 1px solid #ccc;
+}
+
+section#home {
+    background-color: hsl(263, 82%, 34%);
+    color: #f00b0b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #632828;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+section#about {
+    background-color: hsl(135, 82%, 34%);
+    color: #f00b0b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+section#Services Section {
+    background-color: hsl(325, 11%, 78%);
+    color: #413d3d;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
